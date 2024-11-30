@@ -1,5 +1,5 @@
 # React + Vite
-Live Preview: 
+Live Preview: https://bhavana-krishna.github.io/portfolio-website/
 
 Two official plugins are available:
 
