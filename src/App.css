@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Open+Sans&family=Outfit&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
 
 :root {
-  --dark-blue: #03061c;
+  --dark-blue: #010f1d;
+  /*#03061c, #071422, #010f1d, #051719, #0c282b, #091d20, #001112*/
   --light: #0dedcb;
   --slow: #0fbbc4;
   --fade: #3f9cff;
@@ -22,7 +23,7 @@
 
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 * {
@@ -30,8 +31,8 @@ html{
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: "Open Sans", sans-serif;
-  text-decoration: none;
+  font-family:"Georgia", sans-serif;
+  text-decoration:none;
   color: var(--white);
 }
 

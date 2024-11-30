@@ -2,9 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import styles from "./ProjectPage.module.css";
 import ProjectCard from "../../Components/ProjectCard/projectCard";
 import teamtrackrIMG from "../../assets/teamtrackrIMG.png";
-import marketingIMG from "../../assets/marketingIMG.png";
-import travelHookIMG from "../../assets/travelhookIMG.png";
-import safecamIMG from "../../assets/safecamIMG.png";
+import flutter from "../../assets/flutter.png";
 import quizIMG from "../../assets/quizIMG.png";
 import weatherAppImg from '../../assets/weaht.png'
 import { motion } from "framer-motion";
@@ -19,7 +17,7 @@ function Projects() {
       <Circle right={"-6rem"} top={"-8rem"} />
       <MainContainer>
         <div className={styles.project_page_component}>
-          <ComponentTitle title={"My projects"} />
+          <ComponentTitle title={"My Projects"} />
           <motion.div
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
@@ -27,26 +25,11 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
-              previewLink={"https://thereactquizz.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/react-quiz"}
-              projectName={"React Quiz App"}
+              previewLink={"https://bhavana-krishna.github.io/temperature-forecast-app/"}
+              githubLink={"https://github.com/bhavana-krishna/temperature-forecast-app"}
+              projectName={"Temperature Forecast App"}
               projectDetails={
-                "React Quiz App: Answer React questions, get results. Fun way to test React knowledge. Simple, interactive, and informative!"
-              }
-              demoImage={quizIMG}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
-            <ProjectCard
-              previewLink={"https://reatweathersite.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/react-whether-app/tree/main"}
-              projectName={"React Weather App"}
-              projectDetails={
-                "This is React Weather App for you to see how the day is going. Interactive Web Application based on API Data fetching."
+                "This is a Temperature Forecast App done using react js and its based on API Data fetching."
               }
               demoImage={weatherAppImg}
               skill_img={[
@@ -57,70 +40,51 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
               ]}
             />
-
             <ProjectCard
-              previewLink={"https://teamtrackers.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/Team-Trackr-app"}
-              projectName={"Team Trackr App"}
+              previewLink={"https://bhavana-krishna.github.io/error/"}
+              githubLink={"https://github.com/bhavana-krishna"}
+              projectName={"LPG Management System"}
               projectDetails={
-                "It is an Employee Data Management System in which we can store the data of the employee and acces the data of the employee"
+                "LPG Management System: IOT Project for detecting Gas leakage and analysing the gas usage using sensors."
+              }
+              demoImage={quizIMG}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/arduino.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/xampp.svg",
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://bhavana-krishna.github.io/error/"}
+              githubLink={"https://github.com/bhavana-krishna"}
+              projectName={"Sample Portfolio (Theme Changing)"}
+              projectDetails={
+                "Currently working on a portfolio using Angular js and React js having theme change and colour palletes"
               }
               demoImage={teamtrackrIMG}
-              key={"Team Trackr App"}
+
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/angular-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               ]}
             />
-            <ProjectCard
-              previewLink={"https://glistening-shortbread-4a11c7.netlify.app/"}
-              githubLink={
-                "https://github.com/shivam1611/static-marketing-agency-website-"
-              }
-              projectName={"Marketing Solutions Webpage"}
+
+          <ProjectCard
+              previewLink={"https://bhavana-krishna.github.io/error/"}
+              githubLink={"https://github.com/bhavana-krishna"}
+              projectName={"Flutter Project"}
               projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
+                "Currently studying flutter to do future project"
               }
-              demoImage={marketingIMG}
-              key={"Marketing Solutions Webpage"}
+              demoImage={flutter}
+
               skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
-            <ProjectCard
-              previewLink={"https://travelhook.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/travel-hook"}
-              projectName={"Travel Hook Webpage"}
-              projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
-              }
-              demoImage={travelHookIMG}
-              key={"Travel Hook Webpage"}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
-            <ProjectCard
-              previewLink={"https://kaleidoscopic-nougat-c405ab.netlify.app/"}
-              githubLink={
-                "https://github.com/shivam1611/safe-cams-static-website"
-              }
-              projectName={"SafeCam Webpage"}
-              projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
-              }
-              demoImage={safecamIMG}
-              key={"SafeCam Webpage"}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/flutter.svg"
               ]}
             />
           </motion.div>

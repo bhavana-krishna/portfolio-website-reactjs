@@ -1,12 +1,12 @@
 .hero_component {
   display: flex;
-  margin-top: 8rem;
+  margin-top: 6rem;
   /* margin-bottom: 9rem; */
   gap: 8rem;
   margin-inline: auto;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 80%;
   height: 24rem;
 }
 .left_side {
@@ -39,14 +39,14 @@
   color: var(--accent);
   font-size: 3.4vw;
   line-height: 1.375;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .detail_text {
   margin-top: 2rem;
   width: 100%;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: var(--gray);
 }
 
@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 .img_section {
-  width: 24vw;
+  width: 23vw;
   /* background-color: gray; */
   border-radius: 50%;
   position: relative;

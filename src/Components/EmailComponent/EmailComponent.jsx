@@ -29,7 +29,7 @@ function EmailComponent() {
     const template = {
       from_name : fname,
       from_email : email,
-      to_name : "Shivam Sharma",
+      to_name : "Bhavana Krishna",
       message: message
     }
     //  Now sending the email using email.js 
@@ -98,7 +98,7 @@ function EmailComponent() {
               cols="30"
               rows="10"
               required
-              placeholder="This is my message for you"
+              placeholder="Write to Me"
             ></textarea>
           </div>
         </div>

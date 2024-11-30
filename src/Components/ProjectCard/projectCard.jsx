@@ -35,14 +35,14 @@ function projectCard({
             className={`${styles.card_button} ${styles.card_primary_button}`}
             target="_blank"
           >
-            Live Preview
+            Demo Preview
           </a>
           <a
             href={githubLink}
             target="_blank"
             className={`${styles.card_button} ${styles.card_secondary_button}`}
           >
-            Check on GitHub
+            GitHub
           </a>
         </div>
       </div>

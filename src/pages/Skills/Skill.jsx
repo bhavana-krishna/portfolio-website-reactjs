@@ -13,7 +13,7 @@ function Skill() {
       <Navbar />
       <Circle top={"18rem"} right={"-18rem"} />
       <MainContainer>
-        <ComponentTitle title={"My Skills"} />
+        <ComponentTitle title={"My Technical Skills"} />
         <motion.div
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
@@ -21,20 +21,31 @@ function Skill() {
           className={styles.skill_container}
         >
           <SkillCard skill_name={"HTML"} level={5} key={"HTML"} />
-          <SkillCard skill_name={"CSS "} level={5} key={"CSS"} />
-          <SkillCard skill_name={"JavaScript"} level={5} key={"JavaScript"} />
-          <SkillCard skill_name={"React.js"} level={3} key={"React.js"} />
-          <SkillCard skill_name={"Redux (Classic & RTK)"} level={3} key={"Redux"} />
-          <SkillCard
-            skill_name={"Git and GitHub"}
-            level={3}
-            key={"Git and GitHub"}
-          />
-          <SkillCard
-            skill_name={"Tailwind CSS"}
-            level={4}
-            key={"Tailwind"}
-          />
+          <SkillCard skill_name={"Python"} level={5} key={"Python"} />
+          <SkillCard skill_name={"PHP"} level={4} key={"PHP"} />
+          <SkillCard skill_name={"CSS "} level={4} key={"CSS"} />
+          <SkillCard skill_name={"React.js"} level={4} key={"React.js"} />
+          <SkillCard skill_name={"JavaScript"} level={3} key={"JavaScript"} />
+          <SkillCard skill_name={"Arduino"} level={2} key={"Arduino"}/>
+          <SkillCard skill_name={"XML"} level={2} key={"XML"}/>
+          <SkillCard skill_name={"Angular.js"} level={1} key={"Angular"}/>
+          {/* <SkillCard skill_name={} */}
+        </motion.div>
+      </MainContainer>
+      <MainContainer>
+        <ComponentTitle title={"My Artistic Skills"} />
+        <motion.div
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
+          className={styles.skill_container}
+        >
+          <SkillCard skill_name={"Violin"} level={4} key={"Violin"} />
+          <SkillCard skill_name={"Vocal "} level={4} key={"Vocal"} />
+          <SkillCard skill_name={"Dance"} level={3} key={"Dance"} />
+          <SkillCard skill_name={"Veena"} level={2} key={"Veena"}/>
+          <SkillCard skill_name={"Writing"} level={1} key={"Writing"} />
+          <SkillCard skill_name={"Drawing"} level={1} key={"Drawing"}/>
           {/* <SkillCard skill_name={} */}
         </motion.div>
       </MainContainer>

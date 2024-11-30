@@ -23,24 +23,24 @@ function Navbar() {
       <div ref={navbar}  className={style.navbar}>
         <div>
           <NavLink className={style.logo} to="/">
-            Shivam Sharma
+            Bhavana Krishna S Pai
           </NavLink>
         </div>
         <ul className={style.navlist}>
-          <li>
-            <NavLink className={style.navigation} to="/projects">
-              <span className={style.nav_icons}>
-                <i className="fa-solid fa-suitcase"></i>
-              </span>
-              Projects
-            </NavLink>
-          </li>
           <li>
             <NavLink className={style.navigation} to="/about">
               <span className={style.nav_icons}>
                 <i className="fa-solid fa-user"></i>
               </span>
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className={style.navigation} to="/projects">
+              <span className={style.nav_icons}>
+                <i className="fa-solid fa-suitcase"></i>
+              </span>
+              Projects
             </NavLink>
           </li>
           <li className={style.home_navigation}>
@@ -73,7 +73,7 @@ function Navbar() {
         </ul>
         <div className={style.social_media_section}>
           <a
-            href="https://github.com/shivam1611"
+            href="https://github.com/bhavana-krishna"
             rel="noopener noreferrer"
             target="_blank"
             className={style.link}
@@ -81,23 +81,23 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/shivamsharma1611/"
+            href="https://www.youtube.com/@BhavanaKrishnaSPai"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
           >
-            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-youtube"></i>
           </a>
           <a
-            href="https://twitter.com/Codeshey"
+            href="https://www.facebook.com/bhavanakrishna.spai"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
           >
-            <i className="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-facebook"></i>
           </a>
           <a
-            href="https://www.instagram.com/shivamsharma_1611/"
+            href="https://www.instagram.com/bhavana_krishna__/"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}

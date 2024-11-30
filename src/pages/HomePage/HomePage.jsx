@@ -26,7 +26,7 @@ function HomePage() {
             }}
             className={style.upper_text_style}
           >
-            Hello I'm shivam
+            I'm Bhavana <p>Krishna S Pai</p>
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: "-10vw" }}
@@ -39,7 +39,7 @@ function HomePage() {
             }}
             className={style.bottom_text_style}
           >
-            &lt;Frontend Developer/&gt;
+            Web Developer and Artist
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,9 +52,8 @@ function HomePage() {
             }}
             className={style.detail_text}
           >
-            Passionate and detail-oriented Frontend Developer, Proficient in
-            React.js along with HTML, CSS, and JavaScript, with a strong
-            foundation in responsive design and user experience principles.
+            Passionate Web Developer, Violinist and Singer
+            <p>Proficient in coding React.js, HTML, XML, CSS, PHP and Arduino</p>
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: "-7vw" }}
@@ -65,10 +64,9 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/18y01p_mXVG9DZRLAER0cWNJKzUJ7nAeC/view?usp=sharing"
+              href=""
             >
-            
-              Download CV
+              Know my Goals
             </a>
           </motion.button>
         </div>
