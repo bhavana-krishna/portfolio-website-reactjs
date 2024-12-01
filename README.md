@@ -1,5 +1,6 @@
 # React + Vite
-Live Preview: https://bhavana-krishna.github.io/portfolio-website/
+
+# Live Preview: https://bhavanakrishnaportfolio.netlify.app/
 
 Two official plugins are available:
 
