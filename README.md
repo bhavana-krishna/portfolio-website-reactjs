@@ -1,3 +1,3 @@
 # React + Vite
 
-**Live Preview: https://bhavanakrishnaportfolio.netlify.app/**
+**Live Preview: https://bhavanakrishnaspaiportfolio.netlify.app/**
