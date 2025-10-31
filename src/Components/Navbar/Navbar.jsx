@@ -97,7 +97,7 @@ function Navbar() {
             <i className="fa-brands fa-facebook"></i>
           </a>
           <a
-            href="https://www.instagram.com/bhavana_krishna__/"
+            href="https://www.instagram.com/bhavanakrishnaspai/"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
