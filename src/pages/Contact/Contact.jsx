@@ -67,7 +67,7 @@ function Contact() {
                 {/* This is my instagram platform  */}
                 <div className={styles.account_icon}>
                   <a
-                    href="https://www.instagram.com/bhavana_krishna__/"
+                    href="https://www.instagram.com/bhavanakrishnaspai/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
